@@ -1,0 +1,51 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(/images/jupiter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color:blueviolet;
+    text-align: center;
+}
+nav{
+    justify-content: space-between;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+}
+nav form{
+    text-align: right;
+}
+article {
+    width: 75%; 
+    margin: 0 auto; 
+    text-align: right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: purple;
+}
+aside{
+    margin: auto;
+    color: purple;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+footer { 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    border: none !important;
+}

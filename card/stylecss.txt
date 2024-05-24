@@ -1,0 +1,68 @@
+body {}
+
+.wrapper {
+    background-color: rgb(133, 209, 133);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    width: 200px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: darkseagreen;
+    position: relative;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    padding-top: 2px;
+}
+
+.top,
+.bottom {
+    text-align: center;
+    position: absolute;
+    top: 10%;
+}
+
+.bottom {
+    padding: 0 4px;
+}
+
+.button {
+    background-color: gold;
+    padding: 4px;
+    border: none;
+    color: azure;
+    transition: 1s;
+}
+
+.shape {
+    background-color: bisque;
+    width: 100%;
+    height: 60%;
+    transform: skewY(350deg);
+    position: relative;
+    top: -5%;
+    transition: 1s;
+
+}
+
+.top {
+    position: absolute;
+    z-index: 1;
+}
+
+.card:hover .bottom {
+    top: 105%;
+
+
+}
+.card:hover .shape{
+    transform: skewY(390deg);
+}

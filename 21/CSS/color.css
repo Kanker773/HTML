@@ -1,0 +1,25 @@
+body{
+    background: var(--cream-bg, #F2EAE2);
+}
+.card{
+    background: var(--Pure-White, #fff);
+}
+.title{
+    color: var(--Aurometal-Saurus, #6C7289);
+}
+.heading{
+    color: var(--Gunmetal, #1C232B);
+}
+.description{
+    color: var(--Aurometal-Saurus, #6C7289);
+}
+.price .current-price{
+    color: var(--Deep-Aquamarine, #3D8168);
+}
+.button{
+    background: var(--deep-aquamarine-hover, #1A4032);
+}
+.button .text{
+    color: var(--Pure-White, #FFF);
+}
+

@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(164, 106, 219);
+}
+main{
+    background-color: black;
+}
+.app-wrap{
+    background-color: white;
+}
+.app-header .button{
+    background-color: rgb(196, 196, 196);
+}
+.app-header a{
+    color: rgb(255, 255, 255);
+}
+.app-header,.icon-bar{
+    background-color: rgb(232, 180, 85);
+}
+.icon-bar a{
+    color: rgb(187, 142, 29);
+}

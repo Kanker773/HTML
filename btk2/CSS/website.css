@@ -1,0 +1,79 @@
+@import url(/CSS/color.css);
+*{
+  box-sizing: border-box;
+}
+.rubik {
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.lora {
+    font-family: "Lora", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#custom-button {
+    border: none;
+    border-radius: 13px;
+}
+
+
+#section3 #head{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+#section3 .row>div {
+    padding: 15px;
+}
+
+#section3 .row>div span svg {
+    width: 75px;
+    height: 75px;
+}
+.text-block ul {
+    list-style-type: none;
+}
+
+.text-block ul li:before {
+    content: '✓';
+}
+
+@media screen and (min-width: 992px){
+
+    
+      .box {
+        border: 1px solid #ccc; 
+        padding: 30px;
+        border-radius: 8px; 
+      }
+    
+      .rubik h2{
+        font-family: 'Rubik', sans-serif; 
+        font-size: 35px;
+      }
+      .rubik h3{
+        font-family: 'Rubik', sans-serif; 
+        font-size: 20px;
+      }
+    
+      .lora {
+        font-family: 'Lora', serif;
+        font-size: 18px; 
+      }
+    
+      .box svg {
+        width: 50px;
+        height: 50px;
+      }
+      .section4 {
+        align-items: center;
+        margin: 15px 10px 10px 10px;
+      }
+
+} 
+    

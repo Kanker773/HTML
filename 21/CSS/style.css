@@ -1,0 +1,148 @@
+@import url(/CSS/color.css);
+body{
+    margin: 0 auto;
+}
+main{
+    box-sizing: border-box;
+    background-color: var(--cream-bg);
+    display: flex;
+    padding: 1.75rem 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.montserrat-regular {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+.fraunces-regular {
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "SOFT" 0,
+      "WONK" 0;
+  }
+.card{
+    border-radius: 0.625rem;
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 100%;
+    object-fit: fill;
+    border-radius: 0.625rem;
+    
+}
+.perfume-canteen-mobile{
+    display: contents;
+}
+.perfume-canteen-desktop{
+    display: none;
+}
+
+article{
+    background-color: var(--pure-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5rem;
+    row-gap: 1rem;
+    text-align: left;
+    position: relative;
+    top: -1rem;
+}
+.title{
+    
+    font-family: "Montserrat";
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.3125rem;
+}
+.heading{
+    
+    font-family: "Fraunces";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+}
+.description{
+    font-family: "Montserrat";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: center;
+}
+.current-price{
+    font-family: "Fraunces";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
+}
+.previous-price{
+    display: grid;
+    font-family: "Montserrat";
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.4375rem;
+    text-decoration-line: line-through;
+}
+.cart-icon{
+    width: 0.89906rem;
+    height: 1rem;
+}
+.button:hover {
+    background-color: #45a049;
+}
+.button:active {
+    background-color: #3e8e41;
+}
+
+@media screen and (min-width: 1440px){
+    main{
+        flex-direction: row;
+        padding: 10.9375rem 26.25rem;
+        justify-content: center;
+        align-items: center;
+    }
+      article{
+        align-items: center;
+        left: -1rem;
+        top: 0rem;
+      }
+    .title{
+        align-self: flex-start;
+    }
+    .card{
+        display: grid;
+        border-radius: 0.625rem;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        width: 37.5rem;
+    }
+    .perfume-canteen-mobile{
+        display: none;
+    }
+    .perfume-canteen-desktop{
+        display: contents;
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 14.75rem;
+        height: 3rem;
+        flex-shrink: 0;
+        border-radius: 0.5rem;
+        color: var(--pure-white);
+    }
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="card">
+
+            <div class="shape">
+
+                <div class="top">
+                    <img src="MLK.png" alt="MLK">
+                    <h1>Dr.Martin Luther King</h1>
+                </div>
+
+                <div class="bottom">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam assumenda, aut eum sit labore
+                        cupiditate molestiae provident porro voluptatum modi nihil! Magni voluptates ullam eos veritatis
+                        animi, soluta doloremque laborum.
+                    </p>
+
+                    <button>Buy now.</button>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+
+</html>
