@@ -1,0 +1,31 @@
+#title h1,
+#search-form,
+#upper-nav a,
+#search-form,
+#lower-nav a,
+#section2 h2,
+#section2 #head1,
+#section2 #head2,
+#section2 #head3,
+#section2 #head4,
+#section2 #link-a,
+#section2 #link-b,
+#section2 #link-c,
+#section2 #link-d {
+    color: purple;
+
+}
+
+#search-form span,
+#section3,
+#ref-links #e-mail {
+    color: black;
+}
+
+#section1 button {
+    background-color: purple;
+}
+
+#section1 button {
+    color: white
+}

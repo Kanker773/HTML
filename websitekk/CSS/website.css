@@ -1,0 +1,135 @@
+@import url(/CSS/color.css);
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.medievalsharp-regular {
+    font-family: "MedievalSharp", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#title {
+    padding-left: 0 !important;
+}
+
+#title h1,
+#upper-nav #link1,
+#upper-nav #link2,
+#upper-nav #link3,
+#upper-nav #link4,
+#lower-nav #link5,
+#lower-nav #link6,
+#section2 h2,
+#section2 #head1,
+#section2 #head2,
+#section2 #head3,
+#section2 #head4 {
+    font-family: "MedievalSharp", cursive;
+}
+
+#title h1 {
+    letter-spacing: 1rem;
+}
+
+#search-form,
+#upper-nav a,
+#search-form,
+#lower-nav a,
+#section3,
+#ref-links #e-mail {
+    text-decoration: none;
+}
+
+#box #lower-nav #vert-line {
+    border-left: 2px solid #800080;
+    height: 1rem;
+    margin: 0 10px;
+}
+
+#section1 button {
+    border: none;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+#section2 h2 {
+    font-size: 3rem;
+}
+
+@media screen and (min-width: 992px) {
+
+    #title h1 {
+        font-size: 40px;
+    }
+
+    #upper-nav #link1,
+    #upper-nav #link2,
+    #upper-nav #link3,
+    #upper-nav #link4 {
+        font-size: 20px;
+    }
+
+    #image-column {
+        height: 50vh;
+        background-image: url(/images/page1_img1.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+
+    }
+
+    #image-column img {
+        object-fit: cover;
+    }
+
+    #lower-nav a,
+    #section2 #head1,
+    #section2 #head2,
+    #section2 #head3,
+    #section2 #head4 {
+        font-size: 30px;
+    }
+
+    #box #lower-nav #vert-line {
+        border: 3px solid #800080;
+        height: 3rem;
+        margin: 0 10px;
+    }
+
+    #box2 {
+        display: flex;
+    }
+
+    #section2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        column-gap: 20px;
+    }
+
+    #section2 #title-1 {
+        grid-column: 1 / span 2;
+        text-align: center;
+        place-self: center;
+    }
+
+
+    #section2 #text1,
+    #section2 #text2,
+    #section2 #text3,
+    #section2 #text4 {
+
+        height: 200px;
+        overflow-y: hidden;
+    }
+
+    #section3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+    }
+}
