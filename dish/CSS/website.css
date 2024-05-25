@@ -1,0 +1,103 @@
+body{
+    background-color: bisque;
+}
+
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .outfit-regular {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400, 600, 700;
+    font-style: normal;
+  }
+  .box {
+    background-color: white;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 375px;
+    margin: 0 auto; 
+}
+p{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+span{
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    color: hsl(30, 10%, 34%); 
+}
+.section-box {
+    background-color: hsl(330, 100%, 98%);
+    border: 2px solid hsl(330, 100%, 98%);
+    padding: 10px;
+    margin-bottom: 20px; 
+    border-radius: 25px;
+}
+h1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;  
+    color: hsl(24, 5%, 18%);
+}
+h2{
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+}
+h3{
+    font-family: "Outfit", sans-serif;
+    font-weight: 600; 
+    text-align: left;
+    color: purple;
+}
+ul {
+    padding-left: 40px; 
+}
+
+ul li {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: hsl(14, 45%, 36%);
+}
+ol li{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: hsl(30, 18%, 87%);
+}
+footer table {
+    width: 100%;
+    table-layout: fixed; 
+    border-collapse: collapse; 
+}
+footer table p{
+    color: hsl(30, 18%, 87%);
+}
+
+footer table td,
+footer table th {
+    padding: 8px; 
+    border-top: 1px solid hsl(30, 18%, 87%); 
+    border-bottom: 1px solid hsl(30, 18%, 87%); 
+}
+
+footer table th {
+    background-color: hsl(30, 54%, 90%); 
+}
+
+footer table td span {
+    color: hsl(14, 45%, 36%); 
+}
+
+footer hr {
+    display: none; 
+}
+@media screen and (min-width: 768px) {
+    .box {
+        max-width: 1440px;
+    }
+}
