@@ -1,0 +1,86 @@
+@import url(/CSS/colors.css);
+
+main {
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.grid-container {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    width: 90%; 
+    max-width: 500px; 
+    height: auto; 
+    border-radius: 19px;
+}
+
+.grid-container1 {
+    position: relative;
+    top: 6px;
+}
+
+.grid-container2 {
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%; 
+    max-width: 400px; 
+    text-align: left;
+    margin-top: 20px;
+    position: relative;
+    left: -65px;
+     
+}
+
+.grid-container3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 30%; 
+    max-width: 400px; 
+    margin-top: 20px; 
+    position: relative;
+    left: -145px;
+}
+
+.grid-container4 {
+    display: grid;
+    width: 90%; 
+    max-width: 80px; 
+    margin-top: 20px; 
+    position: relative;
+    right: -105px;
+    bottom: 75px;
+
+}
+
+.grid-container5 {
+    display: grid;
+    grid-template-columns: auto auto; 
+    width: 50%; 
+    max-width: 400px; 
+    margin-top: 20px;
+    position: relative; 
+    bottom: 30px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .grid-container {
+        max-width: none; 
+        margin: 20px auto; 
+    }
+
+    .grid-container2,
+    .grid-container3,
+    .grid-container4,
+    .grid-container5 {
+        max-width: none;  
+    }
+}
+
+
+
+
+
+

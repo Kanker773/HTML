@@ -1,0 +1,35 @@
+body{
+    background-color: rgba(13,25,44,255)
+
+}
+.grid-container{
+    background-color: rgba(26,38,62,255);
+}
+.grid-container2 h3{
+    color: aqua;
+}
+.grid-container2 p{
+    color: rgba(125,156,198,255);
+}
+.grid-container3{
+    color: yellow;
+}
+.grid-container5 p{
+    color: white;
+}
+.grid-container5 span {
+    color: rgba(132, 164, 207, 255);
+}
+.grid-container1:hover ,
+.grid-container2:hover h3 {
+    background-color: cyan;
+}
+.grid-container1:hover  {
+    opacity: 0.5;
+}
+.grid-container5 p:hover {
+    color: cyan; 
+}
+.grid-container4 {
+    border-bottom: 1px solid #ccc;
+}
