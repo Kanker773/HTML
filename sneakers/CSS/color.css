@@ -1,0 +1,25 @@
+
+#section4,
+#tag,
+.scroll-tag button,
+#description {
+    color: grey;
+}
+
+#section3 > #price-tags > #discount,
+#section3 #former-price {
+    color: rgb(179, 177, 177);
+}
+
+#section3 > #price-tags > #discount,
+#section4 {
+    color: orange;
+}
+
+#section3 > #price-tags > #discount {
+    background-color: rgb(241, 230, 209);
+}
+
+#section4 > #add {
+    background-color: orange;
+}

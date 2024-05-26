@@ -1,0 +1,91 @@
+@import url(/CSS/color.css);
+
+#sneakersContainer {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    position: relative;
+    pointer-events: none;
+}
+
+#sneakersWrapper {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+    pointer-events: auto;
+}
+
+#sneakersWrapper .d-flex {
+    flex: 0 0 100%;
+}
+
+#sneakersContainer img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+::is(.scroll-tag button, .scroll-button.left, .scroll-button.right, #section4 > #add) {
+    border: none;
+    border-radius: 16px;
+}
+
+.scroll-button {
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    top: 20%;
+    transform: translateY(-50%);
+    border: none;
+    border-radius: 16px;
+}
+
+.scroll-button.left {
+    left: 0;
+}
+
+.scroll-button.right {
+    right: 0;
+}
+
+.scroll-button:focus {
+    outline: none;
+}
+
+#decrement,
+#increment {
+    pointer-events: auto;
+}
+
+
+.scroll-button:focus {
+    outline: none;
+}
+
+/* mobile screen layout */
+
+@media (max-width: 768px) {
+    #sneakersContainer {
+        max-width: 100%;
+    }
+
+    #sneakersWrapper {
+        flex-direction: column;
+    }
+
+    #sneakersWrapper .d-flex {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .scroll-button {
+        display: none;
+    }
+
+    #section2 {
+        flex-direction: column;
+    }
+}
