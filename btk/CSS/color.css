@@ -1,0 +1,38 @@
+header{
+    background-image: url(/images/s-star.svg);
+    background-size: cover;
+}
+header p{
+    color: white;
+}
+header section .button{
+    background-color: rgba(53,75,98,255);
+    color: white;
+}
+.background{
+    background-color: rgba(255, 99, 71, 0.55);
+}
+nav, footer{
+    background-color: rgba(53,75,98,255);
+}
+nav p{
+    color: white;
+}
+.link1 .button a,.link2 a,.link3 a{
+    background-color: crimson;
+    color: white;
+}
+.article1{
+    background-color: antiquewhite;
+}
+.article2{
+    background-color: rgb(187, 187, 187);
+    background-image: url(/images/keyboard.svg);
+    background-size: cover;
+}
+.article3{
+    background-color: beige;
+}
+footer{
+    color:white;
+}
